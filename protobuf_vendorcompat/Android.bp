@@ -67,6 +67,9 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: ["arm/libprotobuf-cpp-full-21.12.so"],
         },
+        android_arm64: {
+            srcs: ["arm64/libprotobuf-cpp-full-21.12.so"],
+        },
     },
 
     shared_libs: [
@@ -86,6 +89,9 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: ["arm/libprotobuf-cpp-lite-21.12.so"],
+        },
+        android_arm64: {
+            srcs: ["arm64/libprotobuf-cpp-lite-21.12.so"],
         },
     },
 
